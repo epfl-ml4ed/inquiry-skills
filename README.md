@@ -12,7 +12,16 @@ Using a multi-step clustering method, we identified four distinct student profil
 
 ## Usage guide
 
+1. Parser converts raw log-data files into readable dictionaries
+2. Sequencer converts parsed dictionaries into the sequences containing a current simulation state at each timestamp and an action taken
+3. Labeling code labels the actions according to the three inquiry strategies paradigms
+4. Clustering code clusters the students and reveals profiles based on students' behavior
 
+5. Experiment Flow presentation shows the structure of the experiment (including the task for the simulation and the content post-test)
+6. Pre-test Inquiry Skills is a short assessment taken before the main experiment to distribute students across the instructional conditions evenly regarding their prior knowledge of the inquiry strategies
+7. Tests Answers file includes answers for the pre-test on inquiry skills and the content post-test
+
+8. Beers Law Lab sim shows the simulation students used without implementation of the Data Table and Plot
 
 ## Contributing 
 
